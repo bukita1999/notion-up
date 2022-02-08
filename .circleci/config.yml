@@ -90,8 +90,8 @@ jobs:
 
             git clone -b feature/backups "https://${GH_TOKEN}@github.com/kaedea/notion-up.git" deploy
             cd deploy
-            git config user.name "Kaede"
-            git config user.email "kidhaibara@gmail.com"
+            git config user.name "bubu"
+            git config user.email "choate1999@hotmail.com"
 
             # Copy files
             if [ -d 'dist' ]; then
